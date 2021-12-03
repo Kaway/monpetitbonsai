@@ -13,7 +13,7 @@ Name|Type| In |Description
 ----|----|----|-----------
 status|string|query|Filter the bonsais by status. Can be ```alive```, ```unknown``` or ```dead```
 older_than|string|query|Only return bonsais which age is greater than
-sort|string|query|The field to sort the result by. Can be either ```status```, ```last_watering```, ```last_repotting```, ```last_pruning```, ```age```
+sort|string|query|The field to sort the result by. Can be either ```status```, ```age``` (```last_watering```, ```last_repotting```, ```last_pruning```: optional)
 direction|string|query|Sort direction. Can only be ```asc``` or ```desc```. Default is ```desc```
 
 **Response**
