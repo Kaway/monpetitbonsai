@@ -323,12 +323,6 @@ has_more|integer|body|Returns the owner who have more or the same number of bons
   "id": "3af50eed-c674-41fc-b7a6-5d0667a4c1fa",
   "name": "Jean-Hugues",
   "bonsais": [
-    {
-      "id": "0a970e72-1111-4951-8647-a597a0d15979",
-      "name": "Pépito",
-      "species": "Jade tree",
-      "acquisition_age": 25
-    }
   ]
 }
 ```
