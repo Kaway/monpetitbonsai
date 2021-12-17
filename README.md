@@ -388,12 +388,7 @@ new_owner|string|body|**Required** The id of the new owner
   "id": "bcb745af-838e-4241-aff4-dc5df67756bb",
   "name": "Pépito",
   "species": "Jade tree",
-  "acquisition_date": "10-06-2021",
-  "acquisition_age": 25,
-  "owner_id": "6d009e8f-a55f-4ca0-9ef9-5ff6f79478fb",
-  "last_watering": "20-09-2021",
-  "last_repotting":"10-02-2019",
-  "last_pruning": "30-04-2021"
+  "age": 25,
 }
 ```
 
@@ -417,11 +412,6 @@ bonsai_id|string|body|**Required** The id of the bonsai to transfer
   "id": "bcb745af-838e-4241-aff4-dc5df67756bb",
   "name": "Pépito",
   "species": "Jade tree",
-  "acquisition_date": "10-06-2021",
-  "acquisition_age": 25,
-  "owner_id": "6d009e8f-a55f-4ca0-9ef9-5ff6f79478fb",
-  "last_watering": "20-09-2021",
-  "last_repotting":"10-02-2019",
-  "last_pruning": "30-04-2021"
+  "age": 25,
 }
 ```
