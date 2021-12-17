@@ -311,14 +311,6 @@ has_more|integer|body|Returns the owner who have more or the same number of bons
 ```json
 {
   "name": "Pépito",
-  "bonsais": [
-    {
-      "id": "63696432-01a2-4b43-b162-47b4f1e6062a",
-      "name": "Pépito",
-      "species": "Jade tree",
-      "age": 25
-    }
-  ]
 }
 ```
 
