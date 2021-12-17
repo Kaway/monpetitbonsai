@@ -327,7 +327,7 @@ has_more|integer|body|Returns the owner who have more or the same number of bons
       "id": "0a970e72-1111-4951-8647-a597a0d15979",
       "name": "Pépito",
       "species": "Jade tree",
-      "age": 25
+      "acquisition_age": 25
     }
   ]
 }
@@ -350,7 +350,7 @@ bonsais|array of objects|body|The bonsais of the future owner. Can be an empty a
     "id": "63696432-01a2-4b43-b162-47b4f1e6062a",
     "name": "Pépito",
     "species": "Jade tree",
-    "age": 25
+    "acquisition_age": 25
   }
 ]
 ```
@@ -380,7 +380,7 @@ new_owner|string|body|**Required** The id of the new owner
   "id": "bcb745af-838e-4241-aff4-dc5df67756bb",
   "name": "Pépito",
   "species": "Jade tree",
-  "age": 25,
+  "acquisition__age": 25,
 }
 ```
 
@@ -404,6 +404,6 @@ bonsai_id|string|body|**Required** The id of the bonsai to transfer
   "id": "bcb745af-838e-4241-aff4-dc5df67756bb",
   "name": "Pépito",
   "species": "Jade tree",
-  "age": 25,
+  "acquisition_age": 25,
 }
 ```
