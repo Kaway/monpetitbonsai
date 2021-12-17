@@ -403,7 +403,7 @@ new_owner|string|body|**Required** The id of the new owner
 
 **Body :**
 ```json
-{ "bonsai_id": "5c4eb5ad-e825-4444-bbe1-18639330a2a8" }
+["5c4eb5ad-e825-4444-bbe1-18639330a2a8","5c4eb5ad-e825-4444-bbe1-18639330a2a8"]
 ```
 
 Name|Type| In |Description
