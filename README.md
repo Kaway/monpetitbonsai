@@ -390,14 +390,9 @@ new_owner|string|body|**Required** The id of the new owner
 Name|Type| In |Description
 ----|----|----|-----------
 owner_id|string|path|The id of the current owner
-bonsai_id|string|body|**Required** The id of the bonsai to transfer
+bonsai_id|string|body|**Required** The ids of the bonsai to transfer
 
 **Response :**
-```json
-{
-  "id": "bcb745af-838e-4241-aff4-dc5df67756bb",
-  "name": "Pépito",
-  "species": "Jade tree",
-  "acquisition_age": 25,
-}
-```
+> 204 No content
+
+If a bonsai already belongs to another owner, it will be ignored.
