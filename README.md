@@ -113,7 +113,7 @@ or
 **The requested bonsai is dead**
 > 410  Gone
 
-**The request bonsai has changed name**
+**The request bonsai has changed name** - Ne pas faire
 > 301 Moved permanently   
 > `Location` header sent
 
